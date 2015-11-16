@@ -1,7 +1,0 @@
-
-public enum NgramEnumerator {
-	UNIGRAM,
-	BIGRAM,
-	UNIGRAM_WITH_GOODTURING,
-	BIGRAM_WITH_GOODTURING
-}
