@@ -1,0 +1,15 @@
+1. Rule Based POS Tagging (30 points)
+For this question, you have been given a POS-tagged training file,
+HW2_F15_NLP6320_POSTaggedTrainingSet.txt, that has been tagged with POS tags
+from the Penn Treebank POS tagset (Figure 5.6). Use this POS tagged file to compute
+for each word w the tag t that maximizes P(t|w). Retag the training file with POS tags
+that are most probable for a given word. Compute the error rate by comparing the
+retagged file against the original tagged file. Now perform error analysis to find the 
+top-5 erroneously tagged words. Write at least five rules to do a better job of tagging
+these top-5 erroneously tagged words, and show the difference in error rates.
+
+
+2. HMM Decoding: Viterbi Algorithm (30 points):
+Implement the Viterbi algorithm and run it with the HMM in Fig. 6.3 to compute the
+most likely weather sequences for each of the two observation sequences, 331122313
+and 331123312.
